@@ -27,7 +27,7 @@
         "type": "prometheus",
         "uid": ""
       },
-      "description": "This table shows the current count of Active TCP connections grouped by port and network interface IP.",
+      "description": "This table shows the current count of Active TCP connections grouped by port and network interface.",
       "fieldConfig": {
         "defaults": {
           "color": {
