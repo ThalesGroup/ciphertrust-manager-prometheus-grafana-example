@@ -635,7 +635,7 @@
   },
   "timepicker": {},
   "timezone": "",
-  "title": "CipherTrust Active TCP connections",
+  "title": "CipherTrust Manager Active TCP connections",
   "uid": "a16ec0b7-ae65-48cb-9ede-09aa40d5631b",
   "version": 1,
   "weekStart": ""
