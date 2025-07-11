@@ -255,3 +255,11 @@ By default this example setup comes bundled with a number of dashboards, such as
   https://grafana.com/grafana/dashboards/16927-akeyless-gateway
 
   Secrets metrics requires CipherTrust Manager version 2.15.0 or higher.
+
+- CipherTrust Manager Active TCP connections
+
+  This dashboard shows the statistics about real-time active TCP connections across network interfaces and ports. 
+  It helps monitor traffic distribution and identify load hotspots in the system. 
+  
+  Active TCP connections metrics requires CipherTrust Manager version 2.22.0 or higher.
+  
