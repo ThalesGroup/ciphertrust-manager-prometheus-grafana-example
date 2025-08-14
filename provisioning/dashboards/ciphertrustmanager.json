@@ -1772,10 +1772,12 @@
               "Time": 0,
               "__name__": 1,
               "domain_id" : 2,
-              "Value": 3
+              "domain_name" : 3,
+              "Value": 4
             },
             "renameByName": {
               "domain_id": "Domain ID",
+              "domain_name": "Domain Name",
               "Value": "Key Count"
             }
           }
@@ -1982,10 +1984,12 @@
               "Time": 0,
               "__name__": 1,
               "domain_id" : 2,
-              "Value": 3
+              "domain_name" : 3,
+              "Value": 4
             },
             "renameByName": {
               "domain_id": "Domain ID",
+              "domain_name": "Domain Name",
               "Value": "Subdomain Count"
             }
           }
