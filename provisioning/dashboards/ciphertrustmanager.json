@@ -1854,7 +1854,7 @@
           "datasource": null,
           "editorMode": "code",
           "exemplar": true,
-          "expr": "ciphertrust_license_manager_orphaned_keys_by_account",
+          "expr": "ciphertrust_license_manager_orphaned_resources_by_account{resource_type=\"keys\"}",
           "format": "table",
           "instant": true,
           "interval": "",
@@ -1873,13 +1873,15 @@
               "__name__": true,
               "instance": true,
               "job": true,
+              "resource_type": true,
               "service": true
             },
             "indexByName": {
               "Time": 0,
               "__name__": 1,
               "account" : 2,
-              "Value": 3
+              "resource_type" : 3,
+              "Value": 4
             },
             "renameByName": {
               "account": "Domain Account",
