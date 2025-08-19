@@ -188,6 +188,8 @@ By default this example setup comes bundled with a number of dashboards, such as
   
   User information requries CipherTrust Manager version 2.11.0 or higher.
 
+  Capacity management (number of keys and subdomains by domains, and number of orphaned keys by domains) requries CipherTrust Manager version 2.22.0 or higher.
+
 - CipherTrust Manager HTTP Traffic
 
   This dashboard shows statistics about the HTTP API such as the numbers of
