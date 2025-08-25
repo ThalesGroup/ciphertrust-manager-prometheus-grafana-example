@@ -1640,7 +1640,7 @@
           "instant": true,
           "interval": "",
           "intervalFactor": 1,
-          "legendFormat": "{{algorith}}",
+          "legendFormat": "{{algorithm}}",
           "refId": "A"
         }
       ],
@@ -1747,12 +1747,12 @@
           "datasource": null,
           "editorMode": "code",
           "exemplar": true,
-          "expr": "ciphertrust_license_manager_key_usage_count_including_subdomains_top_10",
+          "expr": "topk(10, ciphertrust_license_manager_key_usage_count_including_subdomains)",
           "format": "table",
           "instant": true,
           "interval": "",
           "intervalFactor": 1,
-          "legendFormat": "{{algorith}}",
+          "legendFormat": "{{algorithm}}",
           "refId": "A"
         }
       ],
@@ -1859,7 +1859,7 @@
           "instant": true,
           "interval": "",
           "intervalFactor": 1,
-          "legendFormat": "{{algorith}}",
+          "legendFormat": "{{algorithm}}",
           "refId": "A"
         }
       ],
@@ -1961,12 +1961,12 @@
           "datasource": null,
           "editorMode": "code",
           "exemplar": true,
-          "expr": "ciphertrust_license_manager_subdomain_usage_count_including_subdomains_count_top_10",
+          "expr": "topk(10, ciphertrust_license_manager_subdomain_usage_count_including_subdomains_count)",
           "format": "table",
           "instant": true,
           "interval": "",
           "intervalFactor": 1,
-          "legendFormat": "{{algorith}}",
+          "legendFormat": "{{algorithm}}",
           "refId": "A"
         }
       ],
